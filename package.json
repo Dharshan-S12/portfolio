@@ -1,0 +1,14 @@
+{
+  "name": "tawfeeq-portfolio-clone",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Interactive 3D WebGL Portfolio replicating https://tawfeeq-portfolio.vercel.app/",
+  "scripts": {
+    "dev": "vite --port 3000 --host",
+    "start": "vite --port 3000 --host",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}

@@ -1,0 +1,60 @@
+var map = {
+	"./BIO.png": 5739,
+	"./about_port.png": 2378,
+	"./algorithm.png": 4274,
+	"./carrer_timeline.png": 6664,
+	"./cd.png": 4256,
+	"./certificate.png": 7624,
+	"./close.png": 5957,
+	"./code_terminal.png": 3079,
+	"./computerBig.png": 1114,
+	"./computerSmall.png": 7253,
+	"./contact.png": 6129,
+	"./credits.png": 4995,
+	"./doom.png": 7154,
+	"./experience.png": 7913,
+	"./forward.png": 2770,
+	"./java.png": 1401,
+	"./maximize.png": 823,
+	"./minimize.png": 4825,
+	"./myComputer.png": 1888,
+	"./my_showcase.png": 6763,
+	"./ownNote.png": 5085,
+	"./pause.png": 7267,
+	"./play.png": 3899,
+	"./projects_hub.png": 6867,
+	"./resume.png": 3992,
+	"./rewind.png": 292,
+	"./scrabbleIcon.png": 1754,
+	"./showcaseIcon.png": 273,
+	"./skills & achievements.png": 945,
+	"./snakegame.png": 1719,
+	"./tech_stack_portfolio.png": 9685,
+	"./trailIcon.png": 4550,
+	"./volumeOff.png": 3956,
+	"./volumeOn.png": 5288,
+	"./windowExplorerIcon.png": 1731,
+	"./windowGameIcon.png": 8032,
+	"./windowResize.png": 3161,
+	"./windowsStartIcon.png": 1927
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = 5994;
